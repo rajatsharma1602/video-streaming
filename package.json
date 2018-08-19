@@ -1,0 +1,25 @@
+{
+  "name": "video-streaming",
+  "version": "1.0.0",
+  "description": "create a backend service to stream videos for a start",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajatsharma1602/video-streaming.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajatsharma1602/video-streaming/issues"
+  },
+  "homepage": "https://github.com/rajatsharma1602/video-streaming#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.3"
+  }
+}
