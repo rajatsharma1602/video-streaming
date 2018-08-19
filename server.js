@@ -1,4 +1,3 @@
-var debug = require('debug')('myapp:server');
 const http = require('http');
 const app = require('./app');
 const port = normalizePort('8090');
@@ -73,5 +72,4 @@ function onListening() {
       ? 'pipe ' + addr
       : 'port ' + addr.port;
   console.log('Listening on ' + bind);
-  debug('Listening on ' + bind);
 }
